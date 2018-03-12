@@ -66,5 +66,7 @@
 	<bean id="cmsVoteApiAct" class="com.jeecms.cms.api.front.CmsVoteApiAct"/>
 	<bean id="dictionaryApiAct" class="com.jeecms.cms.api.front.DictionaryApiAct"/>
 	<bean id="contentOrderApiAct" class="com.jeecms.cms.api.front.ContentOrderApiAct"/>
-	
+
+	<!-- 查询机首页 -->
+	<bean id="searchClientIndexAct" class="com.jeecms.cms.action.front.SearchClientIndexAct" />
 </beans>
